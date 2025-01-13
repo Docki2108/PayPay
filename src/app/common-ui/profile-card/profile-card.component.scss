@@ -1,0 +1,14 @@
+.profile-card {
+  color: black;
+  border: 1px solid var(--dark-color);
+  padding: 32 24;
+  display: grid;
+  grid-template-columns: repeat(4, 1fn);
+  grid-gap: 32px;
+}
+
+.profile-card-name {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  grid-gap: 20px;
+}
